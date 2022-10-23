@@ -1,0 +1,16 @@
+import math
+user_num = int(input('Enter integer:\n'))
+#print(user_num)
+# Type your code here
+#print('Enter integer:\n')
+print(f'You entered: {user_num}')
+power_num = math.floor(math.pow(user_num, 2))
+print(f'{user_num} squared is {power_num}')
+power3_num = math.floor(math.pow(user_num, 3))
+print(f'And {user_num} cubed is {power3_num} !!')
+user_num = int(input('Enter another integer:\n'))
+#print(user_num)
+un_plus4 = user_num + 4
+un_times4 = user_num * 4
+print(f'4 + {user_num} is {un_plus4}')
+print(f'4 * {user_num} is {un_times4}')
